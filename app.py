@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-url = "https://script.google.com/home/projects/1qIyzAZnN7cH1_Kgnpli00-GeGP9ASl52TagViYIgM2psJUHbcNREFf7a/edit"
+url = "https://script.google.com/macros/s/AKfycbzLwuuRNUaGjLmNjZeH3vacKj72ZQgL7gl3a3tDtIn6KTJMschya7WLDCNOB9lJQJ-uZw/exec"
 # 1. Carrega os dados brutos
 dados_brutos = pd.read_json(url)
 # 2. Organiza colunas e linhas (Pega a 1ª linha como cabeçalho)
